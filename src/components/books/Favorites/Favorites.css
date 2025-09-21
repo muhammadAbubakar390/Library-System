@@ -1,0 +1,31 @@
+.favorites-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.favorites-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.favorites-header h1 {
+  color: #1c1d1f;
+  margin-bottom: 0.5rem;
+}
+
+.favorites-header p {
+  color: #6a6f73;
+  font-size: 1.1rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #6a6f73;
+}
+
+.empty-state h2 {
+  margin-bottom: 1rem;
+  color: #1c1d1f;
+}

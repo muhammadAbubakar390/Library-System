@@ -1,0 +1,171 @@
+.home {
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.popular-topics {
+  padding: 3rem 2rem;
+  background-color: #fff;
+}
+
+.popular-topics h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #1c1d1f;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topic-card {
+  background-color: #f7f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.topic-card h3 {
+  color: #1c1d1f;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.topic-card p {
+  color: #6a6f73;
+  font-weight: 600;
+}
+
+.featured-books {
+  padding: 3rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.featured-books h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #1c1d1f;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #5624d0, #8b5cf6);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta-button {
+  background-color: white;
+  color: #5624d0;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  .topics-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .cta-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .cta-content p {
+    font-size: 1rem;
+  }
+  
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.view-all-btn {
+  background: none;
+  border: none;
+  color: #5624d0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.topic-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}}

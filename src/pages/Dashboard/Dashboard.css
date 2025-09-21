@@ -1,0 +1,80 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  color: #1c1d1f;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-header p {
+  color: #6a6f73;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-book-btn {
+  background-color: #5624d0;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-book-btn:hover {
+  background-color: #4a1fb8;
+}
+
+.dashboard-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #d1d7dc;
+  padding-bottom: 1rem;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  color: #6a6f73;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.tab:hover {
+  color: #1c1d1f;
+}
+
+.tab.active {
+  color: #1c1d1f;
+  border-bottom-color: #1c1d1f;
+}
+
+.dashboard-content {
+  min-height: 400px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-tabs {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
