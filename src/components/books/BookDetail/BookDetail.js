@@ -12,14 +12,6 @@ const BookDetail = () => {
 
   // Find the book by ID
   const book = books.find(b => b.id === parseInt(bookId));
-const BookDetail = () => {
-  return (
-    <div className="book-detail">
-      <h2>Book Detail Page</h2>
-      <p>This will show detailed information about a book.</p>
-    </div>
-  );
-};
   // If book not found, show error
   if (!book) {
     return (
